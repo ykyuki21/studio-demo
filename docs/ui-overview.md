@@ -5,7 +5,7 @@ tags: [00. Welcome]
 
 # UI Overview
 
-![](../../assets/images/studio-overview.png)
+![](../assets/images/studio-overview.png)
 
 1. **Project Actions:** Contains actions to help you add new assets to your project, such as APIs, models, articles, etc.
 2. **Project Selector:** Click the project selector to switch between projects, add a new project, or open an existing project.
