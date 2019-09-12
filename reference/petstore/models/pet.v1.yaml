@@ -7,7 +7,7 @@ x-tags:
 xml:
   name: Pet
 properties:
-  id:
+  iddsadda:
     type: integer
     format: int64
   category:
