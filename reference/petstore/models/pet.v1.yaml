@@ -6,11 +6,6 @@ x-tags:
 xml:
   name: Pet
 properties:
-  iddsadda:
-    type: integer
-    format: int64
-  category:
-    $ref: ./category.v1.yaml
   name:
     type: string
     example: doggie
@@ -28,6 +23,8 @@ properties:
       - available
       - pending
       - sold
+  category:
+    $ref: ./category.v1.yaml  
 required:
   - name
   - photoUrls
