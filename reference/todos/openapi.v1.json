@@ -255,5 +255,22 @@
         }
       }
     }
+  },
+  "components": {
+    "parameters": {
+      "skip": {
+        "in": "query",
+        "type": "string",
+        "name": "skip"
+      },
+      "does-not-warn-about-x": {
+        "$ref": "./parameters/rate-limit.yaml"
+      },
+      "does-warn-about-x": {
+        "name": "X-Rate-Limit",
+        "in": "header",
+        "type": "string"
+      }
+    }
   }
 }

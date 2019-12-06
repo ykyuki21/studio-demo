@@ -4,7 +4,7 @@ parameters:
     type: string
     name: skip
   rate-limit:
-    name: Rate-Limit
+    name: X-Rate-Limit
     in: header
     type: string
   limit:
