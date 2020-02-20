@@ -14,6 +14,7 @@
   },
   "host": "todos.stoplight.io",
   "schemes": [
+    "https",
     "http"
   ],
   "consumes": [
