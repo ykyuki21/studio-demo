@@ -4,6 +4,7 @@ info:
   title: Swagger Petstore
   license:
     name: MIT
+  description: Marc playground has a description.
 servers:
   - url: 'http://petstore.swagger.io/v1'
 paths:
@@ -82,10 +83,11 @@ paths:
 components:
   schemas:
     Pets:
-      type: array
-      items:
-        $ref: ./models/pet.v1.yaml
-      x-tags:
-        - Pets
       title: Pets
       description: A list of pets.
+      type: array
+      x-tags:
+        - Pets
+      items:
+        $ref: ./models/pet.v1.yaml
+  securitySchemes: {}
