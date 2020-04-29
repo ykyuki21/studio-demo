@@ -1,6 +1,10 @@
 {
   "title": "User",
   "type": "object",
+  "x-tags": [
+    "Todos"
+  ],
+  "x-examples": {},
   "properties": {
     "name": {
       "type": "string",
@@ -10,13 +14,14 @@
       "type": "number",
       "minimum": 0,
       "maximum": 150
+    },
+    "email": {
+      "type": "string"
     }
   },
   "required": [
     "name",
-    "age"
-  ],
-  "x-tags": [
-    "Todos"
+    "age",
+    "email"
   ]
 }
